@@ -85,12 +85,18 @@ loadLayers.stackLayers = function()
     // Nuke the "destination" layer that got created (M2HDR holdover)
     stackDoc.layers[this.pluginName].remove();
     
+    
+// default set layers to smart objects
+    for ( i = 0; i < stackDoc.layers.length; i++){
+        app.activeDocument.activeLayer = stackDoc.layers[i];
+        executeAction( knewPlacedLayerStr, new ActionDescriptor(), DialogModes.NO );
+    }
+    
     // Stack 'em up.
     if (this.createSmartObject)
     {
-        console.log
-        selectAllLayers( stackDoc );
-        executeAction( knewPlacedLayerStr, new ActionDescriptor(), DialogModes.NO );
+        // selectAllLayers( stackDoc );
+        // executeAction( knewPlacedLayerStr, new ActionDescriptor(), DialogModes.NO );
     }
 }
 

@@ -1,0 +1,11 @@
+{
+  "name": "starter_pkg",
+  "version": "1.0.0",
+  "description": "A development starter package for creating a plugin within Adobe XD",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "isaiahdaviscom",
+  "license": "ISC"
+}

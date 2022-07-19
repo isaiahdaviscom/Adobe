@@ -23,7 +23,7 @@ module.exports = {
         options: {
           plugins: [
             "transform-react-jsx",
-            "transform-object-rest-spread",
+            "@babel/plugin-proposal-object-rest-spread",
           ]
         }
       },

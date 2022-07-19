@@ -4,6 +4,7 @@
 - [Creating an Adobe React Plugin](#creating-an-adobe-react-plugin)
   - [Prerequistes](#prerequistes)
   - [Getting Started](#getting-started)
+  - [Issue Tracker](#issue-tracker)
   - [Resources](#resources)
 
 ## Prerequistes
@@ -16,6 +17,8 @@
 ```cmd
 npm install -g yarn
 ```
+
+## Issue Tracker
 
 ## Resources
 

@@ -3,11 +3,9 @@ if (window.setTimeout == null) {
     fn();
   };
 }
-
 if (window.clearTimeout == null) {
   window.clearTimeout = function () { };
 }
-
 if (window.cancelAnimationFrame == null) {
   window.cancelAnimationFrame = function () { };
 }

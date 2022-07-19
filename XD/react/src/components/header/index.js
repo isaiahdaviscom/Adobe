@@ -1,5 +1,5 @@
-import React from 'react';
-import style from './style.css';
+const React = require('react');
+const style = require('./style.css');
 
 const Header = () => (
   <header className={style.header}>
@@ -8,4 +8,5 @@ const Header = () => (
       <a href="/">Link 1</a>
   </header>
 );
+
 export default Header;

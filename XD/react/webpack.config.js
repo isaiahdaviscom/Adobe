@@ -6,6 +6,14 @@ module.exports = {
     libraryTarget: "commonjs2",
   },
   devtool: false,
+  externals: {
+    application: 'application',
+    uxp: 'uxp',
+    scenegraph: 'scenegraph'
+  },
+  resolve: {
+    extensions: [".js", ".jsx"]
+  },
   module: {
     rules: [
       {
@@ -14,17 +22,20 @@ module.exports = {
         loader: "babel-loader",
         options: {
           plugins: [
-            "transform-react-jsx"
+            "transform-react-jsx",
+            "transform-object-rest-spread",
           ]
         }
+      },
+      {
+        test: /\.png$/,
+        exclude: /node_modules/,
+        loader: 'file-loader'
       },
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
       }
     ]
-  },
-  externals: {
-    scenegraph: "scenegraph",
-  },
+  }
 };

@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react';
+import style from './style.css';
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div>Header</div>
-    )
-  }
-}
+const Header = () => (
+  <header className={style.header}>
+      <a href="/">Link 1</a>
+      <a href="/">Isaiah Davis</a>
+      <a href="/">Link 1</a>
+  </header>
+);
+export default Header;

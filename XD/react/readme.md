@@ -1,11 +1,24 @@
 
-to build
+# Creating an Adobe React Plugin
 
-install yarn (if needed) with
-    npm install -g yarn
+- [Creating an Adobe React Plugin](#creating-an-adobe-react-plugin)
+  - [Prerequistes](#prerequistes)
+  - [Getting Started](#getting-started)
+  - [Resources](#resources)
 
-install dependencies with
-    yarn install
+## Prerequistes
 
-watch and automaticaly rebuild with
-    yarn watch
+1. Creating an Adobe Developer account
+2. Downloading Adobe UXP Development Application
+
+## Getting Started
+
+```cmd
+npm install -g yarn
+```
+
+## Resources
+
+[Statement of Work](https://docs.google.com/document/d/18YYOBP9ROX4hJbqCRJPqWR7zl-9hNKCRhXOqAFw77-c/edit#heading=h.4lqp25cx7kth)
+
+[State Machine - Visualization](https://stately.ai/registry/editor/share/2417b947-fa74-4454-b057-2b3dadabec7b)

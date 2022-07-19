@@ -1,28 +1,33 @@
 {
-    "id": "UI_HELLO_REACT_ID",
-    "name": "(UI) Hello React JSX",
-    "version": "1.0.0",
-    "host": {
-        "app": "XD",
-        "minVersion": "18.0"
+  "id": "c0ce4d30",
+  "name": "React",
+  "version": "1.0.0",
+  "description": "Description of your plugin.",
+  "summary": "Summary of your plugin",
+  "languages": ["en"],
+  "author": "Your Name",
+  "helpUrl": "https://mywebsite.com/help",
+  "host": {
+    "app": "XD",
+    "minVersion": "18.0"
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
     },
-    "icons": [
-        {
-            "width": 24,
-            "height": 24,
-            "path": "images/icon@1x.png"
-        },
-        {
-            "width": 48,
-            "height": 48,
-            "path": "images/icon@2x.png"
-        }
-    ],
-    "uiEntryPoints": [
-        {
-            "type": "menu",
-            "label": "UI Hello React JSX",
-            "commandId": "menuCommand"
-        }
-    ]
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "React",
+      "commandId": "menuCommand"
+    }
+  ]
 }

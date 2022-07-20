@@ -1,12 +1,12 @@
 const React = require('react');
 const style = require('./style.css');
 
-const Header = () => (
-  <header className={style.header}>
-      <a href="/">Link 1</a>
-      <a href="/">Isaiah Davis</a>
-      <a href="/">Link 1</a>
-  </header>
-);
+class Header extends React.Component {
+  render() {
+      return (
+          <p className={style.clock}>HELLO WORLD</p>
+      )
+  }
+}
 
-export default Header;
+module.exports =  Header;

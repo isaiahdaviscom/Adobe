@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+const React = require('react');
+const style = require('./style.css');
 
-export default class Footer extends Component {
+class Footer extends React.Component {
   render() {
-    return (
-      <footer>
-        tesdfasdf
-        <button type="submit" uxp-variant="cta" onClick={this.onDoneClick}>Done</button>
-      </footer>
-    )
+      return (
+          <p className={style.clock}>Footer</p>
+      )
   }
 }
+
+module.exports =  Footer;
